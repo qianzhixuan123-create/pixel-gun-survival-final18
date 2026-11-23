@@ -1,0 +1,16 @@
+{
+  "name": "pixel-survival-v1-web",
+  "version": "1.1.8",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/game.js && node --check public/audio.js",
+    "build": "npm run check"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
